@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Html Practicing Web</title>
+<title>Html Practicing Web!</title>
 </head>
 <body>
 <strong>Hypertext Markup Language! (Html)</strong>
