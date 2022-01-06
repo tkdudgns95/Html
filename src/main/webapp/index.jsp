@@ -18,5 +18,8 @@ my title is effort<br>
 effort is great<br>
 <p>but not everything</p>
 <p>Fighting!</p>
+2021-01-06 did
+<img src="winter.jpg" width="100%">
+
 </body>
 </html>
