@@ -34,6 +34,10 @@ effort is great<br>
 <li>kasly</li>
 <li>youngbin12</li>
 </ol>
+<a
+href="https://github.com/tkdudgns95"
+target="_blank" title="사영훈 github"> 제 깃허브 주소입니다.</a>
+<%--href은 링크 참조를 의미, target blank는 새 창으로 열겠다는 의미입니다. title은 링크를 가져다댔을때 뜨는 글씨를 의미하죠. <a 태그로 링크에 보이는 글씨를 표시합니다.> --%>
 <img src="winter.jpg" width="100%">
 </body>
 </html>
