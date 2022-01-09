@@ -24,9 +24,9 @@ effort is great<br>
 <p>but not everything</p>
 <p>Fighting!</p>
 <ul>
-	<li><a>HTML1 </a></li>
-	<li><a> CSS</a></li>
-	<li><a>JavaScript</a></li>
+	<li><a><font color="red;">HTML1</font></a></li>
+	<li><a><font color="blue">CSS</font></a></li>
+	<li><a><font color="blueviolet">JavaScript</font></a></li>
 </ul>
 <p>
 <video controls poster="Clouds.png">
