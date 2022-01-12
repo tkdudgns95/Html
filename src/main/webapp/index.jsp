@@ -13,6 +13,11 @@
 	<style>
 		video { max-width: 80%; display: block; margin: 20px auto; }
 		<%--style 태그안에 video의 크기 지정 가능 --%>
+		a {
+			color:black;
+			text-decoration: none;
+		<%--text-decoration: none 밑줄을 모두 제거. 새미콜론으로 구분함 --%>		
+		}
 	</style>
 </head>
 <body>
@@ -24,9 +29,10 @@ effort is great<br>
 <p>but not everything</p>
 <p>Fighting!</p>
 <ul>
-	<li><a><font color="red;">HTML1</font></a></li>
-	<li><a><font color="blue">CSS</font></a></li>
-	<li><a><font color="blueviolet">JavaScript</font></a></li>
+	<li><a style="color:red;">HTML1</a></li>
+	<li><a style="color:blue; text-decoration:underline">CSS</a></li>
+	<%--style 속성으로 적용하고 싶은 부분만 디자인 가능.(밑줄,색깔) --%>
+	<li><a style="color:blueviolet">JavaScript</a></li>
 </ul>
 <p>
 <video controls poster="Clouds.png">
