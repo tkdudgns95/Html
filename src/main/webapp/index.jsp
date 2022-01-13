@@ -13,12 +13,19 @@
 	<style>
 		video { max-width: 80%; display: block; margin: 20px auto; }
 		<%--style 태그안에 video의 크기 지정 가능 --%>
+		#active {
+			color:red;
+		}
+		.saw {
+			color:gray;
+		}
+		<%-- saw클래스의 색깔 gray 지정. --%>
 		a {
 			color:black;
 			text-decoration: none;
 		<%--text-decoration: none 밑줄을 모두 제거. 새미콜론으로 구분함 --%>		
 		}
-		
+		<%-- saw 클래스의 active 클래스의 색깔 red 지정. --%>
 		h1{
 			font-size:45px;
 			text-align: center;
@@ -35,8 +42,8 @@ effort is great<br>
 <p>but not everything</p>
 <p>Fighting!</p>
 <ul>
-	<li><a style="color:red;">HTML1</a></li>
-	<li><a style="color:blue; text-decoration:underline">CSS</a></li>
+	<li><a class="saw">HTML1</a></li>
+	<li><a class="saw" id="active">CSS</a></li>
 	<%--style 속성으로 적용하고 싶은 부분만 디자인 가능.(밑줄,색깔) --%>
 	<li><a style="color:blueviolet">JavaScript</a></li>
 </ul>
