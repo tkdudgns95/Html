@@ -18,6 +18,12 @@
 			text-decoration: none;
 		<%--text-decoration: none 밑줄을 모두 제거. 새미콜론으로 구분함 --%>		
 		}
+		
+		h1{
+			font-size:45px;
+			text-align: center;
+		<%-- h1 태그에 있는 모든 글씨 45px로 지정, 텍스트는 가운데로 지정 --%>
+		}
 	</style>
 </head>
 <body>
