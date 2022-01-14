@@ -11,6 +11,9 @@
 	<title>Html Practicing Web!</title>
 	<%--본문의 제목을 의미한다.(title) --%>
 	<style>
+		body {
+			margin:0;
+		}
 		video { max-width: 80%; display: block; margin: 20px auto; }
 		<%--style 태그안에 video의 크기 지정 가능 --%>
 		#active {
@@ -30,6 +33,17 @@
 			font-size:45px;
 			text-align: center;
 		<%-- h1 태그에 있는 모든 글씨 45px로 지정, 텍스트는 가운데로 지정 --%>
+			border-bottom:1px solid gray;
+			margin:0;
+			padding:20px;
+		}
+		ul{
+			font-size:35px;
+			border-right:1px solid gray;
+			width:200px;
+			text-align:left;
+			margin:0;
+			padding:100px;
 		}
 	</style>
 </head>
@@ -37,10 +51,6 @@
 <%--body태그는 본문이다. --%>
 <strong>Hypertext Markup Language! (Html)</strong>
 <h1><a href="index.jsp">WEB</a></h1>
-my title is effort<br>
-effort is great<br>
-<p>but not everything</p>
-<p>Fighting!</p>
 <ul>
 	<li><a class="saw">HTML1</a></li>
 	<li><a class="saw" id="active">CSS</a></li>
