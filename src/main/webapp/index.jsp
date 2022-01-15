@@ -45,30 +45,32 @@
 			margin:0;
 			padding:100px;
 		}
+		#grid{
+			display: grid;
+			grid-template-columns: 400px 1fr;
+		}
 	</style>
 </head>
 <body>
 <%--body태그는 본문이다. --%>
 <strong>Hypertext Markup Language! (Html)</strong>
 <h1><a href="index.jsp">WEB</a></h1>
+<div id="grid">
 <ul>
 	<li><a class="saw">HTML1</a></li>
 	<li><a class="saw" id="active">CSS</a></li>
 	<%--style 속성으로 적용하고 싶은 부분만 디자인 가능.(밑줄,색깔) --%>
 	<li><a style="color:blueviolet">JavaScript</a></li>
 </ul>
-<p>
-<video controls poster="Clouds.png">
-	<source src="Lemon - 82602.mp4" type="video/mp4">
-</video>
-</p>
-<%-- controls는 동영상 재생과 음량조절 등 컨트롤을 가능하게 해줍니다 source 태그로 src로 동영상삽입과 type로 속성지정가능. --%>
+<div>
 <p>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/_tV5LEBDs7w" 
 title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
 encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
 </iframe>
 </p>
+</div>
+</div>
 <%-- UTUBE 영상 퍼가서 업로드 하기 --%>
 <ol>
 <li>egoing</li>
